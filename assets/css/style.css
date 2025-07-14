@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+    background-color: rgba(105, 121, 185);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(69, 196, 255);
+}
+
+#whatssap {
+    position: fixed;
+    top: 50%;
+    right: 1vw;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+i {
+    color: #5eb852ed;
+    transition: 0.3s;
+}
+
+i:hover {
+    color: #5fd44fed;
+}
+
+
+section {
+    padding: 0 5vw 2vh 5vw;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 2px rgb(109, 160, 255, 0.3);
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8vh;
+    background-color: #2b3973;
+    color: white;
+    flex-flow: row wrap;
+}
+
+h3 {
+    text-align: center;
+}
+
+#alessandro-img-1 {
+    margin-top: 2vh;
+    max-width: 320px;   
+}
+
+#sobre-mim{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2vh;
+    background-color: #4b5794;
+}
+
+#alessandro-img-2 {
+    max-width: 160px;
+    margin-right: 2vw; 
+}
+
+#sobre-mim p {
+    max-width: 550px;
+    text-align: justify;
+    
+}
+
+#projetos {
+    padding-top: 2vh;
+    text-align: center;
+    background-color: #2b3973;
+}
+
+h2 {
+    margin: 0 0 2vh;
+}
+
+#itens-projeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.item-projeto {
+    margin-bottom: 1vh;
+}
+
+.item-projeto img{
+    width: 360px;
+}
+
+#contato {
+    padding-top: 2vh;
+    text-align: center;
+    background-color: #4b5794;
+}
+
+#contato div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form {
+    text-align: start;
+}
+
+form div {
+    margin-bottom: 1vh;
+}
+
+input {
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(0, 185, 62);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+#contato p {
+    font-weight: 800;
+}
+
+footer{
+    text-align: center;
+    background-color: #2b3973;
+}
